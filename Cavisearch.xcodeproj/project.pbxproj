@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541CAA74235E39C40040BC95 /* CavitySearch.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 541CAA73235E39C40040BC95 /* CavitySearch.mlmodel */; };
+		541CAA762363AA540040BC95 /* Cavisearch2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 541CAA752363AA540040BC95 /* Cavisearch2.mlmodel */; };
+		5426AF7F236C65EE00044FD8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5426AF7E236C65EE00044FD8 /* Constants.swift */; };
+		5446757F2379953100C26A34 /* ChooseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5446757E2379953100C26A34 /* ChooseViewController.swift */; };
+		54467581237995A300C26A34 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54467580237995A300C26A34 /* ResultsViewController.swift */; };
+		54467588237DBE0F00C26A34 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54467587237DBE0F00C26A34 /* ViewController3.swift */; };
+		5446758A238C3E8500C26A34 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54467589238C3E8000C26A34 /* ViewController4.swift */; };
+		549CAE692354CA1100AC9DA7 /* MyImageClassifier 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 549CAE682354CA1100AC9DA7 /* MyImageClassifier 1.mlmodel */; };
+		549CAE6B235530DD00AC9DA7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549CAE6A235530DD00AC9DA7 /* HomeViewController.swift */; };
 		54FE5097234ACDF40014CB57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE5096234ACDF40014CB57 /* AppDelegate.swift */; };
 		54FE5099234ACDF40014CB57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE5098234ACDF40014CB57 /* SceneDelegate.swift */; };
 		54FE509B234ACDF40014CB57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE509A234ACDF40014CB57 /* ViewController.swift */; };
@@ -16,7 +25,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		54FE5093234ACDF40014CB57 /* Cavisearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cavisearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541CAA73235E39C40040BC95 /* CavitySearch.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CavitySearch.mlmodel; sourceTree = "<group>"; };
+		541CAA752363AA540040BC95 /* Cavisearch2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cavisearch2.mlmodel; sourceTree = "<group>"; };
+		5426AF7E236C65EE00044FD8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5446757E2379953100C26A34 /* ChooseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseViewController.swift; sourceTree = "<group>"; };
+		54467580237995A300C26A34 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		54467587237DBE0F00C26A34 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		54467589238C3E8000C26A34 /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		549CAE682354CA1100AC9DA7 /* MyImageClassifier 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "MyImageClassifier 1.mlmodel"; sourceTree = "<group>"; };
+		549CAE6A235530DD00AC9DA7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		54FE5093234ACDF40014CB57 /* caviSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caviSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FE5096234ACDF40014CB57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54FE5098234ACDF40014CB57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		54FE509A234ACDF40014CB57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +66,7 @@
 		54FE5094234ACDF40014CB57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54FE5093234ACDF40014CB57 /* Cavisearch.app */,
+				54FE5093234ACDF40014CB57 /* caviSearch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +74,22 @@
 		54FE5095234ACDF40014CB57 /* Cavisearch */ = {
 			isa = PBXGroup;
 			children = (
+				549CAE682354CA1100AC9DA7 /* MyImageClassifier 1.mlmodel */,
+				541CAA752363AA540040BC95 /* Cavisearch2.mlmodel */,
+				541CAA73235E39C40040BC95 /* CavitySearch.mlmodel */,
 				54FE5096234ACDF40014CB57 /* AppDelegate.swift */,
+				549CAE6A235530DD00AC9DA7 /* HomeViewController.swift */,
 				54FE5098234ACDF40014CB57 /* SceneDelegate.swift */,
+				5446757E2379953100C26A34 /* ChooseViewController.swift */,
 				54FE509A234ACDF40014CB57 /* ViewController.swift */,
+				5426AF7E236C65EE00044FD8 /* Constants.swift */,
 				54FE509C234ACDF40014CB57 /* Main.storyboard */,
 				54FE509F234ACDF60014CB57 /* Assets.xcassets */,
 				54FE50A1234ACDF60014CB57 /* LaunchScreen.storyboard */,
 				54FE50A4234ACDF70014CB57 /* Info.plist */,
+				54467580237995A300C26A34 /* ResultsViewController.swift */,
+				54467587237DBE0F00C26A34 /* ViewController3.swift */,
+				54467589238C3E8000C26A34 /* ViewController4.swift */,
 			);
 			path = Cavisearch;
 			sourceTree = "<group>";
@@ -84,7 +111,7 @@
 			);
 			name = Cavisearch;
 			productName = Cavisearch;
-			productReference = 54FE5093234ACDF40014CB57 /* Cavisearch.app */;
+			productReference = 54FE5093234ACDF40014CB57 /* caviSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +130,7 @@
 				};
 			};
 			buildConfigurationList = 54FE508E234ACDF40014CB57 /* Build configuration list for PBXProject "Cavisearch" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549CAE6B235530DD00AC9DA7 /* HomeViewController.swift in Sources */,
 				54FE509B234ACDF40014CB57 /* ViewController.swift in Sources */,
+				54467588237DBE0F00C26A34 /* ViewController3.swift in Sources */,
+				5446757F2379953100C26A34 /* ChooseViewController.swift in Sources */,
+				54467581237995A300C26A34 /* ResultsViewController.swift in Sources */,
 				54FE5097234ACDF40014CB57 /* AppDelegate.swift in Sources */,
+				549CAE692354CA1100AC9DA7 /* MyImageClassifier 1.mlmodel in Sources */,
+				541CAA74235E39C40040BC95 /* CavitySearch.mlmodel in Sources */,
 				54FE5099234ACDF40014CB57 /* SceneDelegate.swift in Sources */,
+				541CAA762363AA540040BC95 /* Cavisearch2.mlmodel in Sources */,
+				5446758A238C3E8500C26A34 /* ViewController4.swift in Sources */,
+				5426AF7F236C65EE00044FD8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,16 +321,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VP6QUWMT93;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 6LCVZV3GCV;
 				INFOPLIST_FILE = Cavisearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.airii.Cavisearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airii.Cavisearch2;
+				PRODUCT_NAME = caviSearch;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,16 +342,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VP6QUWMT93;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = 6LCVZV3GCV;
 				INFOPLIST_FILE = Cavisearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.airii.Cavisearch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.airii.Cavisearch2;
+				PRODUCT_NAME = caviSearch;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
